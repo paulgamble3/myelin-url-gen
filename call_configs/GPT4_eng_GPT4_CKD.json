@@ -1,0 +1,386 @@
+[
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/c19e9c5d-4e1f-4581-a725-49cb971e58dc/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbIm1lZGljYXRpb24tZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQtcGhvbmVjYWxsIiwic2NyaXB0SWQiOiJiYTJjZmMxOS1kZjMwLTQ2NTktOTk5NS00MzQwNmM1MDU0MDciLCJwYXRpZW50TmFtZSI6IkNvcnRleiBXaWdnaW5zIiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfU0lNUExFX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfQVNZTkNfS0lDS09VVFMiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfTUlOSU1VTV9GT0xMT1dfVVBTX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTEFCX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9SQUdfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX1JBR19FTUJFRERJTkdfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0NIRUNLTElTVF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "medication-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced-phonecall",
+      "scriptId": "ba2cfc19-df30-4659-9995-43406c505407",
+      "patientName": "Cortez Wiggins",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false,
+        "USE_OUR_LAB_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_EMBEDDING_MODEL": false,
+        "USE_OUR_CHECKLIST_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/f337d834-2040-4aba-a330-9c48b22e4632/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbIm1lZGljYXRpb24tZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQtcGhvbmVjYWxsIiwic2NyaXB0SWQiOiJiYTJjZmMxOS1kZjMwLTQ2NTktOTk5NS00MzQwNmM1MDU0MDciLCJwYXRpZW50TmFtZSI6IkVkdWFyZG8gSGFyZHkiLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9TSU1QTEVfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9BU1lOQ19LSUNLT1VUUyI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9NSU5JTVVNX0ZPTExPV19VUFNfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfRVZBTFVBVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9MQUJfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX1JBR19ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfUkFHX0VNQkVERElOR19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfQ0hFQ0tMSVNUX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2V9LCJzaG93QW5ub3RhdGlvbnNJbkNoYXRVSSI6ZmFsc2V9?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "medication-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced-phonecall",
+      "scriptId": "ba2cfc19-df30-4659-9995-43406c505407",
+      "patientName": "Eduardo Hardy",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false,
+        "USE_OUR_LAB_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_EMBEDDING_MODEL": false,
+        "USE_OUR_CHECKLIST_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/fd75f83a-a74d-47ea-afa6-4c72232110d9/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbIm1lZGljYXRpb24tZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQtcGhvbmVjYWxsIiwic2NyaXB0SWQiOiJiYTJjZmMxOS1kZjMwLTQ2NTktOTk5NS00MzQwNmM1MDU0MDciLCJwYXRpZW50TmFtZSI6IkVtaWxlIFJpdmVycyIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0xBQl9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfUkFHX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9SQUdfRU1CRURESU5HX01PREVMIjpmYWxzZSwiVVNFX09VUl9DSEVDS0xJU1RfRVZBTFVBVE9SX01PREVMIjpmYWxzZX0sInNob3dBbm5vdGF0aW9uc0luQ2hhdFVJIjpmYWxzZX0=?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "medication-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced-phonecall",
+      "scriptId": "ba2cfc19-df30-4659-9995-43406c505407",
+      "patientName": "Emile Rivers",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false,
+        "USE_OUR_LAB_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_EMBEDDING_MODEL": false,
+        "USE_OUR_CHECKLIST_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/72a2b452-e04e-4cf7-9847-33db399ccbd0/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbIm1lZGljYXRpb24tZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQtcGhvbmVjYWxsIiwic2NyaXB0SWQiOiJiYTJjZmMxOS1kZjMwLTQ2NTktOTk5NS00MzQwNmM1MDU0MDciLCJwYXRpZW50TmFtZSI6IlRoZWxtYSBPZG9ubmVsbCIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0xBQl9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfUkFHX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9SQUdfRU1CRURESU5HX01PREVMIjpmYWxzZSwiVVNFX09VUl9DSEVDS0xJU1RfRVZBTFVBVE9SX01PREVMIjpmYWxzZX0sInNob3dBbm5vdGF0aW9uc0luQ2hhdFVJIjpmYWxzZX0=?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "medication-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced-phonecall",
+      "scriptId": "ba2cfc19-df30-4659-9995-43406c505407",
+      "patientName": "Thelma Odonnell",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false,
+        "USE_OUR_LAB_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_EMBEDDING_MODEL": false,
+        "USE_OUR_CHECKLIST_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/71697be2-49e3-4338-9d46-3fe33146b165/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbIm1lZGljYXRpb24tZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQtcGhvbmVjYWxsIiwic2NyaXB0SWQiOiJiYTJjZmMxOS1kZjMwLTQ2NTktOTk5NS00MzQwNmM1MDU0MDciLCJwYXRpZW50TmFtZSI6IkpvbiBDaGF2ZXoiLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9TSU1QTEVfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9BU1lOQ19LSUNLT1VUUyI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9NSU5JTVVNX0ZPTExPV19VUFNfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfRVZBTFVBVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9MQUJfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX1JBR19ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfUkFHX0VNQkVERElOR19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfQ0hFQ0tMSVNUX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2V9LCJzaG93QW5ub3RhdGlvbnNJbkNoYXRVSSI6ZmFsc2V9?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "medication-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced-phonecall",
+      "scriptId": "ba2cfc19-df30-4659-9995-43406c505407",
+      "patientName": "Jon Chavez",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false,
+        "USE_OUR_LAB_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_EMBEDDING_MODEL": false,
+        "USE_OUR_CHECKLIST_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/56a73b70-2f2f-4342-a7d4-ab506d116dd6/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbIm1lZGljYXRpb24tZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQtcGhvbmVjYWxsIiwic2NyaXB0SWQiOiJiYTJjZmMxOS1kZjMwLTQ2NTktOTk5NS00MzQwNmM1MDU0MDciLCJwYXRpZW50TmFtZSI6IkRhbWlhbiBCZW50b24iLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9TSU1QTEVfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9BU1lOQ19LSUNLT1VUUyI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9NSU5JTVVNX0ZPTExPV19VUFNfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfRVZBTFVBVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9MQUJfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX1JBR19ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfUkFHX0VNQkVERElOR19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfQ0hFQ0tMSVNUX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2V9LCJzaG93QW5ub3RhdGlvbnNJbkNoYXRVSSI6ZmFsc2V9?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "medication-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced-phonecall",
+      "scriptId": "ba2cfc19-df30-4659-9995-43406c505407",
+      "patientName": "Damian Benton",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false,
+        "USE_OUR_LAB_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_EMBEDDING_MODEL": false,
+        "USE_OUR_CHECKLIST_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/62532459-40f8-4f4d-bc74-8c4669b075cd/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbIm1lZGljYXRpb24tZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQtcGhvbmVjYWxsIiwic2NyaXB0SWQiOiJiYTJjZmMxOS1kZjMwLTQ2NTktOTk5NS00MzQwNmM1MDU0MDciLCJwYXRpZW50TmFtZSI6IkNhcmxhIEFybm9sZCIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0xBQl9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfUkFHX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9SQUdfRU1CRURESU5HX01PREVMIjpmYWxzZSwiVVNFX09VUl9DSEVDS0xJU1RfRVZBTFVBVE9SX01PREVMIjpmYWxzZX0sInNob3dBbm5vdGF0aW9uc0luQ2hhdFVJIjpmYWxzZX0=?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "medication-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced-phonecall",
+      "scriptId": "ba2cfc19-df30-4659-9995-43406c505407",
+      "patientName": "Carla Arnold",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false,
+        "USE_OUR_LAB_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_EMBEDDING_MODEL": false,
+        "USE_OUR_CHECKLIST_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/dfa2b342-71ee-444d-b5be-5c3c14744192/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbIm1lZGljYXRpb24tZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQtcGhvbmVjYWxsIiwic2NyaXB0SWQiOiJiYTJjZmMxOS1kZjMwLTQ2NTktOTk5NS00MzQwNmM1MDU0MDciLCJwYXRpZW50TmFtZSI6Ik9sYSBGYXJyZWxsIiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfU0lNUExFX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfQVNZTkNfS0lDS09VVFMiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfTUlOSU1VTV9GT0xMT1dfVVBTX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTEFCX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9SQUdfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX1JBR19FTUJFRERJTkdfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0NIRUNLTElTVF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "medication-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced-phonecall",
+      "scriptId": "ba2cfc19-df30-4659-9995-43406c505407",
+      "patientName": "Ola Farrell",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false,
+        "USE_OUR_LAB_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_EMBEDDING_MODEL": false,
+        "USE_OUR_CHECKLIST_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/31bf07f7-404e-49a4-9466-cd8ea9073f7b/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbIm1lZGljYXRpb24tZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQtcGhvbmVjYWxsIiwic2NyaXB0SWQiOiJiYTJjZmMxOS1kZjMwLTQ2NTktOTk5NS00MzQwNmM1MDU0MDciLCJwYXRpZW50TmFtZSI6IkJlcm5hZGluZSBQZWNrIiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfU0lNUExFX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfQVNZTkNfS0lDS09VVFMiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfTUlOSU1VTV9GT0xMT1dfVVBTX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTEFCX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9SQUdfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX1JBR19FTUJFRERJTkdfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0NIRUNLTElTVF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "medication-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced-phonecall",
+      "scriptId": "ba2cfc19-df30-4659-9995-43406c505407",
+      "patientName": "Bernadine Peck",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false,
+        "USE_OUR_LAB_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_EMBEDDING_MODEL": false,
+        "USE_OUR_CHECKLIST_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/b5267681-242d-42ef-bcce-44b2f4ec1ab5/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbIm1lZGljYXRpb24tZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQtcGhvbmVjYWxsIiwic2NyaXB0SWQiOiJiYTJjZmMxOS1kZjMwLTQ2NTktOTk5NS00MzQwNmM1MDU0MDciLCJwYXRpZW50TmFtZSI6IkJlbmVkaWN0IE9saXZlciIsIm90aGVyU2V0dGluZ3MiOnsiVVNFX0xMQU1BX1NJTVBMRV9QUk9NUFRfRk9STUFUIjpmYWxzZSwiVVNFX0FTWU5DX0tJQ0tPVVRTIjp0cnVlLCJVU0VfT1VSX0tJQ0tPVVRfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfRVZBTFVBVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX01JTklNVU1fRk9MTE9XX1VQU19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTUVESUNBTF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0xBQl9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfUkFHX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9SQUdfRU1CRURESU5HX01PREVMIjpmYWxzZSwiVVNFX09VUl9DSEVDS0xJU1RfRVZBTFVBVE9SX01PREVMIjpmYWxzZX0sInNob3dBbm5vdGF0aW9uc0luQ2hhdFVJIjpmYWxzZX0=?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "medication-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced-phonecall",
+      "scriptId": "ba2cfc19-df30-4659-9995-43406c505407",
+      "patientName": "Benedict Oliver",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false,
+        "USE_OUR_LAB_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_EMBEDDING_MODEL": false,
+        "USE_OUR_CHECKLIST_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/3257cd73-3cfa-42c3-97b7-82045a4e610f/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbIm1lZGljYXRpb24tZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQtcGhvbmVjYWxsIiwic2NyaXB0SWQiOiJiYTJjZmMxOS1kZjMwLTQ2NTktOTk5NS00MzQwNmM1MDU0MDciLCJwYXRpZW50TmFtZSI6IkFsZXggR2F0ZXMiLCJvdGhlclNldHRpbmdzIjp7IlVTRV9MTEFNQV9TSU1QTEVfUFJPTVBUX0ZPUk1BVCI6ZmFsc2UsIlVTRV9BU1lOQ19LSUNLT1VUUyI6dHJ1ZSwiVVNFX09VUl9LSUNLT1VUX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9LSUNLT1VUX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9NSU5JTVVNX0ZPTExPV19VUFNfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX01FRElDQUxfRVZBTFVBVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9MQUJfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX1JBR19ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfUkFHX0VNQkVERElOR19NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfQ0hFQ0tMSVNUX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2V9LCJzaG93QW5ub3RhdGlvbnNJbkNoYXRVSSI6ZmFsc2V9?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "medication-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced-phonecall",
+      "scriptId": "ba2cfc19-df30-4659-9995-43406c505407",
+      "patientName": "Alex Gates",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false,
+        "USE_OUR_LAB_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_EMBEDDING_MODEL": false,
+        "USE_OUR_CHECKLIST_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  },
+  {
+    "url": "https://eval.hippocraticdev.com:447/eval/patients/43e654fa-861f-44da-b1fc-7424423522da/calls/undefined/configString/eyJwaG9uZU51bWJlciI6IiIsIm1vZGVsIjoiZ3B0NCIsInN1cHBvcnRNb2RlbCI6ImdwdDQiLCJsbG1TdHJlYW1pbmciOnRydWUsInR0c1N0cmVhbWluZyI6ZmFsc2UsInN1cHBvcnRFbmdpbmVzIjpbIm1lZGljYXRpb24tZW5naW5lIl0sInRlbXBsYXRlIjoibmVlbF92MiIsInR0cyI6ImVsZXZlbl9sYWJzX3NvZnRfZ2VudGxlIiwiYXNyIjoiZGctZW5oYW5jZWQtcGhvbmVjYWxsIiwic2NyaXB0SWQiOiJiYTJjZmMxOS1kZjMwLTQ2NTktOTk5NS00MzQwNmM1MDU0MDciLCJwYXRpZW50TmFtZSI6IkFuYSBBZ3VpcnJlIiwib3RoZXJTZXR0aW5ncyI6eyJVU0VfTExBTUFfU0lNUExFX1BST01QVF9GT1JNQVQiOmZhbHNlLCJVU0VfQVNZTkNfS0lDS09VVFMiOnRydWUsIlVTRV9PVVJfS0lDS09VVF9ERVRFQ1RPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfS0lDS09VVF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0tJQ0tPVVRfTUlOSU1VTV9GT0xMT1dfVVBTX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9NRURJQ0FMX0VWQUxVQVRPUl9NT0RFTCI6ZmFsc2UsIlVTRV9PVVJfTEFCX0RFVEVDVE9SX01PREVMIjpmYWxzZSwiVVNFX09VUl9SQUdfREVURUNUT1JfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX1JBR19FTUJFRERJTkdfTU9ERUwiOmZhbHNlLCJVU0VfT1VSX0NIRUNLTElTVF9FVkFMVUFUT1JfTU9ERUwiOmZhbHNlfSwic2hvd0Fubm90YXRpb25zSW5DaGF0VUkiOmZhbHNlfQ==?",
+    "config": {
+      "phoneNumber": "",
+      "model": "gpt4",
+      "supportModel": "gpt4",
+      "llmStreaming": true,
+      "ttsStreaming": false,
+      "supportEngines": [
+        "medication-engine"
+      ],
+      "template": "neel_v2",
+      "tts": "eleven_labs_soft_gentle",
+      "asr": "dg-enhanced-phonecall",
+      "scriptId": "ba2cfc19-df30-4659-9995-43406c505407",
+      "patientName": "Ana Aguirre",
+      "otherSettings": {
+        "USE_LLAMA_SIMPLE_PROMPT_FORMAT": false,
+        "USE_ASYNC_KICKOUTS": true,
+        "USE_OUR_KICKOUT_DETECTOR_MODEL": false,
+        "USE_OUR_KICKOUT_EVALUATOR_MODEL": false,
+        "USE_OUR_KICKOUT_MINIMUM_FOLLOW_UPS_MODEL": false,
+        "USE_OUR_MEDICAL_DETECTOR_MODEL": false,
+        "USE_OUR_MEDICAL_EVALUATOR_MODEL": false,
+        "USE_OUR_LAB_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_DETECTOR_MODEL": false,
+        "USE_OUR_RAG_EMBEDDING_MODEL": false,
+        "USE_OUR_CHECKLIST_EVALUATOR_MODEL": false
+      },
+      "showAnnotationsInChatUI": false
+    }
+  }
+]
